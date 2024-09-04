@@ -1,4 +1,4 @@
-import kalamehFont from "constants/localFonts";
+import iransansFont from "constants/localFonts";
 import type { Metadata } from "next";
 
 // export const metadata: Metadata = {

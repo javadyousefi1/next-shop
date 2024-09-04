@@ -1,56 +1,48 @@
 import LocalFont from "next/font/local";
 
-const kalamehFont = LocalFont({
+const iransansFont = LocalFont({
   src: [
     {
-      path: "../../public/fonts/_woff2/KalamehWeb-Thin.woff2",
+      path: "../../public/fonts/woff/IRANSansWeb_UltraLight.woff",
       weight: "100",
       style: "normal",
     },
     {
-      path: "../../public/fonts/_woff2/KalamehWeb-ExtraLight.woff2",
+      path: "../../public/fonts/woff/IRANSansWeb_Light.woff",
       weight: "200",
       style: "normal",
     },
     {
-      path: "../../public/fonts/_woff2/KalamehWeb-Light.woff2",
+      path: "../../public/fonts/woff/IRANSansWeb_Light.woff",
       weight: "300",
       style: "normal",
     },
     {
-      path: "../../public/fonts/_woff2/KalamehWeb-Regular.woff2",
+      path: "../../public/fonts/woff/IRANSansWeb_Medium.woff",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../../public/fonts/_woff2/KalamehWeb-Medium.woff2",
+      path: "../../public/fonts/woff/IRANSansWeb.woff",
       weight: "500",
       style: "normal",
     },
+
     {
-      path: "../../public/fonts/_woff2/KalamehWeb-SemiBold.woff2",
-      weight: "600",
-      style: "normal",
-    },
-    {
-      path: "../../public/fonts/_woff2/KalamehWeb-Bold.woff2",
+      path: "../../public/fonts/woff/IRANSansWeb_Bold.woff",
       weight: "700",
       style: "normal",
     },
+
     {
-      path: "../../public/fonts/_woff2/KalamehWeb-ExtraBold.woff2",
-      weight: "800",
-      style: "normal",
-    },
-    {
-      path: "../../public/fonts/_woff2/KalamehWeb-Black.woff2",
+      path: "../../public/fonts/woff/IRANSansWeb_Black.woff",
       weight: "900",
       style: "normal",
     },
   ],
-  variable: "--font-kalameh",
+  variable: "--font-iranSans",
   style: "normal",
   display: "block",
 });
 
-export default kalamehFont
+export default iransansFont
