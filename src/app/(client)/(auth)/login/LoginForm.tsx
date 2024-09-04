@@ -21,14 +21,15 @@ const LoginForm: React.FC = () => {
           name="title"
           rules={[{ required: true, message: "لطفا شماره تماس را وارد کنید" }]}
         >
-          <Input size="large" />
+          <Input size="large" variant="filled" className="!p-3" />
         </Form.Item>
 
         <Button
           htmlType="submit"
           type="primary"
-          className="px-8 w-full mt-7"
+          className=" w-full mt-7"
           size="large"
+          style={{ padding: "24px!important" }}
         >
           ورود
         </Button>
